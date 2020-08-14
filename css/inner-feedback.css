@@ -1,0 +1,128 @@
+main{
+    height: initial;
+}
+
+/*--------------------------------------main②*/
+.main-conts-container{
+    width:760px;
+    height: 750px;
+    background-color:#ffffff;
+    margin:0 auto;
+    padding:5px;
+}
+
+.main-conts-left{
+    width:520px;
+    float:left;
+}
+
+.conts-left-sentence{
+    height: 50px;
+    border-bottom: dotted 2px #8b9598;
+    color: #237640;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.form-container{
+    border-bottom: dotted 2px #8b9598;
+}
+
+.form-wrapper{
+    text-align: right;
+    padding-top: 15px;
+    padding-right: 20px;
+}
+
+.form-wrapper label{
+    padding-right: 5px;
+}
+
+.form-wrapper >textarea{
+    height: 150px;
+    width: 300px;
+    border: solid 1px #8b9598;
+    background-color: #f4f5f7;
+}
+
+.form-wrapper >input{
+    width: 300px;
+    border: solid 1px #8b9598;
+    padding: 3px;
+    background-color: #f4f5f7;
+}
+
+.form-inputbox input{
+    width: 215px;
+}
+
+.form-inputbox img{
+    margin-top: 5px;
+}
+
+.form-pass-change{
+    text-align: initial;
+    padding-left: 215px;
+}
+
+.form-pass-change>a{
+    color: #1398b7;
+}
+
+.form-pass-change >span{
+    color: #a62525;
+    display: block;
+}
+
+.btn-square-blue {
+    display:inline-block;
+    padding:3px 10px;
+    text-decoration:none;
+    background:-webkit-linear-gradient(top, #0f6e8a, #1194bb);/*ボタン色*/
+    color:#ffffff;
+    font-size:18px;
+    font-weight:bold;
+    border-bottom:solid 1px #0f6e8a;
+    border-radius:5px;
+    margin:7px 5px 5px 20px;
+}
+
+.btn-square-blue:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+}
+
+.form-btn-blue{
+    padding-top: 10px;
+}
+
+
+
+/*mainにあるbunner*/
+.main-conts-left-second-sixth{
+    height: 100px;
+}
+
+.main-conts-right{
+    width:220px;
+    height:480px;
+    background-color:#eaf0f2;
+    float:right;
+    margin:5px 5px;
+    border: solid 1px #8b9598;
+}
+
+.main-conts-right-banner{
+    margin-top: 200px;
+    text-align:center;
+    transform:scale(1,1.5);/* 変形 横,縦 */
+}
+
+.main-conts-right-banner a{
+    text-decoration:none;
+    color:#000000;
+}
+

@@ -1,0 +1,127 @@
+main{
+    height: initial;
+}
+
+/*--------------------------------------main②*/
+.main-conts-container{
+    width:760px;
+    height: 750px;
+    background-color:#ffffff;
+    margin:0 auto;
+    padding:5px;
+}
+
+.main-conts-left{
+    width:520px;
+    float:left;
+}
+
+.main-conts-left>p{
+    border-bottom: dotted 2px #8b9598;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.main-conts-left span{
+    color: #1f713e;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.main-conts-left>form{
+    border-bottom: dotted 2px #8b9598;
+}
+
+.employee-prof-conts{
+    height: 85px;
+    padding-top: 20px;
+}
+
+
+.employee-prof-conts-top{
+
+}
+
+.employee-prof-conts-top label{
+    display: block;
+    float: left;
+    width: 230px;
+    margin-left: 40px;
+}
+
+.employee-prof-conts-top select{
+    width:220px;
+    height: 30px;
+    display: block;
+    float: left;
+    color: #999ea1;
+    background-color:#eaf0f2;
+    border: solid 1px #d0d4d6;
+    padding: 2px;
+}
+
+.employee-prof-conts-top span{
+    display: block;
+    float: left;
+    padding-left: 5px;
+    padding-top: 5px;
+    font-size: 12px;
+    color: #a62525;
+}
+
+.employee-prof-conts-request{
+    padding-left: 200px;
+}
+
+.employee-prof-conts-request>img{
+    width: 30px;
+    display: block;
+    float: left;
+    margin-left: 20px;
+}
+
+.employee-prof-conts-request-sentence{
+    float: left;
+    padding-left: 25px;
+}
+
+.employee-prof-conts-request-sentence>a{
+    color: #1196be;
+    display: inline-block;
+    border-bottom: solid 1px #1196be;
+    font-size: 13px;
+}
+
+.employee-prof-conts-request-sentence>span{
+    display: block;
+    font-size: 13px;
+    color: #a62525;
+    padding-top: 5px;
+}
+
+/*mainにあるbunner*/
+.main-conts-left-second-sixth{
+    height: 100px;
+}
+
+.main-conts-right{
+    width:220px;
+    height:480px;
+    background-color:#eaf0f2;
+    float:right;
+    margin:5px 5px;
+    border: solid 1px #8b9598;
+}
+
+.main-conts-right-banner{
+    margin-top: 200px;
+    text-align:center;
+    transform:scale(1,1.5);/* 変形 横,縦 */
+}
+
+.main-conts-right-banner a{
+    text-decoration:none;
+    color:#000000;
+}
+

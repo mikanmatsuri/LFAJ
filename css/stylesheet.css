@@ -1,0 +1,205 @@
+/*--------------------------------------main②*/
+.main-conts-container{
+    width:760px;
+    background-color:#ffffff;
+    margin:0 auto;
+    padding:5px;
+}
+
+.main-conts-left{
+    width:520px;
+    height:600px;
+    float:left;
+}
+
+.main-conts-left-img{
+    margin: 5px;
+}
+
+.main-conts-left-img img{/*hand picture*/
+    width:510px;
+    height:200px;
+}
+
+.main-conts-left-comment{/*comment*/
+    height:200px;
+}
+
+.main-conts-left-comment-title{
+    margin-left:20px;
+    margin-top:20px;
+}
+
+.main-conts-left-comment-title span{
+    display:inline-block;    /* 変形するためのブロック化 */
+    transform:scale(1,1.5);/* 変形 横,縦 */
+    font-size:20px;
+    font-weight:bold;
+    background:-webkit-linear-gradient(top,#207741 25%,#3c9361 75%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.main-conts-left-comment-sentence{
+    margin:5px;
+    font-size:15px;
+}
+
+.main-conts-left-comment-sentence span{
+    padding:5px;
+}
+
+
+/*mainにあるbuttton*/
+.main-conts-left-button-group{
+    height:180px;
+}
+
+.main-conts-left-buttons{
+    height:105px;
+}
+
+.main-conts-left-buttons-left ,.main-conts-left-buttons-right{
+    width:250px;
+    height:100px;
+    float: left;
+}
+
+.main-conts-left-buttons-left span{
+    display: block;
+    font-size:30px;
+}
+
+.main-conts-left-buttons-right span{
+    display: block;
+    font-size:30px;
+}
+
+.btn-square-green{
+    width:240px;
+    display:inline-block;
+    padding:3px 35px;
+    text-decoration:none;
+    background:-webkit-linear-gradient(top, #1f733f, #195b32);/*ボタン色*/
+    color:#ffffff;
+    font-size:20px;
+    font-weight:bold;
+    border-bottom:solid 5px #1f733f;
+    border-right:solid 5px #1f733f;
+    border-radius:10px;
+    margin:7px 5px 5px 5px;
+    transform:scale(1,1.4);/* 変形 横,縦 */
+}
+
+.btn-square-green:active{
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+}
+
+.main-conts-left-buttons-bottom{
+    width:520px;
+    height:60px;
+}
+
+.main-conts-left-buttons-bottom span{
+    font-size:30px;
+}
+
+.btn-square-blue{
+    width:490px;
+    display:inline-block;
+    padding:3px 120px;
+    text-decoration:none;
+    background:-webkit-linear-gradient(top, #1195bd, #0f7796);/*ボタン色*/
+    color:#ffffff;
+    font-size:25px;
+    font-weight:bold;
+    border-bottom:solid 5px #1195bd;
+    border-right:solid 5px #1195bd;
+    border-radius:10px;
+    margin:7px 5px 5px 5px;
+    transform:scale(1,1.4);/* 変形 横,縦 */
+}
+
+.btn-square-blue:active{
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+}
+
+/*mainにあるbunner*/
+.main-conts-right{
+    width:220px;
+    height:480px;
+    background-color:#eaf0f2;
+    float:right;
+    margin:5px 5px;
+    border: solid 1px #8b9598;
+}
+
+.main-conts-right-banner{
+    margin-top: 200px;
+    text-align:center;
+    transform:scale(1,1.5);/* 変形 横,縦 */
+}
+
+.main-conts-right-banner a{
+    text-decoration:none;
+    color:#000000;
+}
+
+
+/*mainにあるpeople　pictures*/
+.main-conts-bottoms{
+    width:750px;
+    height:150px;
+}
+
+.main-conts-bottoms-bar{
+    height:100px;
+    background-color:#5d5f60;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+.main-conts-bottoms-bar-pictures{
+    width:720px;
+    height:80px;
+    margin:0 auto;
+    padding-top:10px;
+}
+
+.main-conts-bottoms-bar-allows-left{
+    float:left;
+    padding-left:10px;
+    padding-top:20px;
+    padding-right:20px;
+}
+
+.main-conts-bottoms-bar-peoples{
+}
+
+.main-conts-bottoms-bar-peoples-img{
+    float:left;
+    margin-right:27px;
+}
+
+.main-conts-bottoms-bar-peoples-img img{
+    background-color: white;
+}
+
+.main-conts-bottoms-bar-peoples-img a{
+    display: block;
+    margin-top:15px;
+    margin-left:15px;
+}
+
+.main-conts-bottoms-bar-allows-right{
+    float:left;
+    padding-top:20px;
+    padding-right:5px;
+}
+

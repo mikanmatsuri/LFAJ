@@ -1,0 +1,321 @@
+main{
+    height: initial;
+}
+
+/*--------------------------------------main②*/
+.main-conts-container{
+    width:760px;
+    background-color:#ffffff;
+    margin:0 auto;
+    margin-top:7px;
+    padding:5px;
+}
+
+.main-conts-left{
+    width:520px;
+    float:left;
+}
+
+.main-conts-left-first{
+    padding-top: 20px;
+    padding-left: 10px;
+    border-bottom:dotted 2px #c9c9c9;
+}
+
+.main-conts-left-first h1{
+    color: #156c37;
+    font-size: 20px;
+}
+
+.main-conts-left-second{
+    border-bottom:dotted 2px #c9c9c9;
+}
+
+.main-conts-left-second-select{
+    width: 500px;
+    height: 85px;
+    font-size: 14px;
+    padding-top: 30px;
+}
+
+.left-second-select{
+    display: block;
+    width: 250px;
+    float: left;
+    margin-left:10px;
+    text-align: right;
+}
+
+.main-conts-left-second-select input{
+    display: inline-block;
+    float: right;
+    width: 220px;
+    padding: 7px;
+    border:solid 1px #8b9598;
+    background-color: #f4f5f7;
+}
+
+.left-second-select-loading{
+    padding-left: 230px;
+}
+
+.left-second-select-loading>img{
+    float: left;
+}
+
+.left-second-select-loading>span{
+    color: #a62525;
+    font-size: 12px;
+    display: block;
+    float: left;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+.font-loading{
+    display: block;
+    float: left;
+    padding-left: 20px;
+}
+
+.main-conts-left-third{
+    height: 50px;
+    padding-top: 10px;
+}
+
+.main-conts-left-third-btn{
+    float: left;
+}
+
+.main-conts-left-third-btn >a{
+    padding: 5px 15px 5px 15px;
+}
+
+.main-conts-left-third-img{
+    float: left;
+    padding-left: 300px;
+}
+
+.main-conts-left-third-sentence{
+    border-bottom:dotted 2px #c9c9c9;
+    padding-left: 5px;
+    color: #156c37;
+    font-size: 12px;
+}
+
+.main-conts-left-third-sentence>h1{
+    padding-left: 5px;
+    margin-top: 10px;
+}
+
+.main-conts-left-force{
+    height: 350px;
+    color: #a0a1a3;
+    border-bottom:dotted 2px #c9c9c9;
+}
+
+.left-force-sentence{
+    padding:15px;
+}
+
+.left-force-wrapper{
+    padding-left: 50px;
+    margin-top: 20px;
+}
+
+.left-force-wrapper span{
+    display: block;
+    float: left;
+}
+
+.force-btn-green,.force-btn-gray,.force-btn-blue,.force-btn-red,.force-btn-black{
+    float: left;
+    padding-right: 5px;
+}
+
+.btn-green-first{
+    display:inline-block;
+    padding:5px 10px;
+    text-decoration:none;
+    background:-webkit-linear-gradient(top, #1d6b3b, #238749);/*ボタン色*/
+    color:#ffffff;
+    font-size:16px;
+    font-weight:bold;
+    border-bottom:solid 1px #278549;
+    border-radius:5px;
+}
+
+.btn-green-first:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+}
+
+.btn-gray{
+    display:inline-block;
+    padding:5px 10px;
+    text-decoration:none;
+    background:-webkit-linear-gradient(top, #65737c, #5d6e75);/*ボタン色*/
+    color:#ffffff;
+    font-size:16px;
+    font-weight:bold;
+    border-bottom:solid 1px #f4f8fb;
+    border-radius:5px;
+}
+
+.btn-gray:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+}
+
+.btn-blue{
+    display:inline-block;
+    padding:5px 10px;
+    text-decoration:none;
+    background:-webkit-linear-gradient(top, #1a6093, #186090);/*ボタン色*/
+    color:#ffffff;
+    font-size:14px;
+    font-weight:bold;
+    border-bottom:solid 1px #136692;
+    border-radius:5px;
+}
+
+.btn-blue:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+}
+
+.btn-red{
+    display:inline-block;
+    padding:5px 10px;
+    text-decoration:none;
+    background:-webkit-linear-gradient(top, #a6110d, #b91111);/*ボタン色*/
+    color:#ffffff;
+    font-size:14px;
+    font-weight:bold;
+    border-bottom:solid 1px #c95150;
+    border-radius:5px;
+}
+
+.btn-red:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+}
+
+.btn-black{
+    display:inline-block;
+    padding:5px 19px;
+    text-decoration:none;
+    background:-webkit-linear-gradient(top, #010101, #383f45);/*ボタン色*/
+    color:#ffffff;
+    font-size:14px;
+    font-weight:bold;
+    border-bottom:solid 1px #030000;
+    border-radius:5px;
+}
+
+.btn-black:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+}
+
+.main-conts-left-fifth{
+    height: 70px;
+    border-bottom:dotted 2px #c9c9c9;
+    padding-top: 10px;
+}
+
+.left-fifth-container a{
+    color: #a0a1a3;
+}
+
+.fifth-wrapper-first,.fifth-wrapper-second,.fifth-wrapper-third,.fifth-wrapper-force,.fifth-wrapper-fifth{
+    float: left;
+    padding-right: 10px;
+    color: #a0a1a3;
+}
+
+.fifth-wrapper-second-sentence>span{
+    display: block;
+    color: #a0a1a3;
+}
+
+.main-conts-left-sixth{
+    height: 150px;
+    padding-top: 20px;
+    padding-left: 10px;
+    color: #a0a1a3;
+    font-size: 20px;
+}
+
+.left-sixth-sentence{
+    padding-bottom: 20px;
+}
+
+.force-btn-green{
+    float: left;
+    padding-right: 5px;
+}
+
+.btn-green{
+    display:inline-block;
+    padding:5px 19px;
+    text-decoration:none;
+    background:-webkit-linear-gradient(top, #1d6b3b, #238749);/*ボタン色*/
+    color:#ffffff;
+    font-size:25px;
+    font-weight:bold;
+    border-bottom:solid 4px #278549;
+    border-radius:10px;
+}
+
+.btn-green:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+}
+
+
+/*mainにあるbunner*/
+.main-conts-left-second-sixth{
+    height: 100px;
+}
+
+.left-sixth-color{
+    color: #000000;
+}
+
+.left-sixth-link{
+    color: #107e9f;
+}
+
+.main-conts-right{
+    width:220px;
+    height:480px;
+    background-color:#eaf0f2;
+    float:right;
+    margin:5px 5px;
+    border: solid 1px #8b9598;
+}
+
+.main-conts-right-banner{
+    margin-top: 200px;
+    text-align:center;
+    transform:scale(1,1.5);/* 変形 横,縦 */
+}
+
+.main-conts-right-banner a{
+    text-decoration:none;
+    color:#000000;
+}
+

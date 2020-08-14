@@ -1,0 +1,110 @@
+main{
+    height: initial;
+}
+
+
+/*--------------------------------------main②*/
+.main-conts-container{
+    width:760px;
+    height: 750px;
+    background-color:#ffffff;
+    margin:0 auto;
+    padding:5px;
+}
+
+.main-conts-left{
+    width:520px;
+    float:left;
+}
+
+.main-conts-left-top{
+    width: 500px;
+    height: 50px;
+    border-bottom: dotted 1px #8b9598;
+    margin-left: 10px;
+}
+
+.main-conts-left-top >span {
+    color: #217440;
+    display: block;
+    padding-left: 20px;
+    padding-top: 15px;
+    font-size: 25px;
+
+}
+
+.main-conts-left-center{
+    width: 500px;
+    height: 350px;
+    border-bottom: dotted 1px #8b9598;
+    margin-left: 10px;
+}
+
+.main-conts-left-center-sentence{
+    height: 50px;
+    padding-top: 30px;
+    margin-left: 20px;
+}
+
+.main-conts-left-center-comment{
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+.main-conts-left-center-comment textarea{
+    width: 470px;
+    height: 270px;
+    border:solid 1px #d2d3d5;
+    color: #999ea1;
+}
+
+.main-conts-left-bottom{
+    width: 100px;
+    height: 50px;
+    padding-top: 5px;
+    margin-left: 20px;
+}
+
+
+.main-conts-left-bottom-btn-square {
+    display:inline-block;
+    padding:5px 25px;
+    text-decoration:none;
+    background:-webkit-linear-gradient(top, #0f6e8a, #1194bb);/*ボタン色*/
+    color:#ffffff;
+    font-size:25px;
+    font-weight:bold;
+    border-bottom:solid 1px #0f6e8a;
+    border-radius:10px;
+    margin: 10px 5px 5px 10px;
+}
+
+.main-conts-left-bottom-btn-square:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+}
+
+
+/*mainにあるbunner*/
+.main-conts-right{
+    width:220px;
+    height:480px;
+    background-color:#eaf0f2;
+    float:right;
+    margin:5px 5px;
+    border: solid 1px #8b9598;
+}
+
+.main-conts-right-banner{
+    margin-top: 200px;
+    text-align:center;
+    transform:scale(1,1.5);/* 変形 横,縦 */
+}
+
+.main-conts-right-banner a{
+    text-decoration:none;
+    color:#000000;
+}
+

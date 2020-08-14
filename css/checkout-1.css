@@ -1,0 +1,157 @@
+main{
+    height: initial;
+}
+
+/*--------------------------------------main②*/
+.main-conts-container{
+    width:760px;
+    height: 750px;
+    background-color:#ffffff;
+    margin:0 auto;
+    padding:5px;
+}
+
+.main-conts-left{
+    width:520px;
+    height: initial;
+    float:left;
+}
+
+.main-conts-left-first{
+    height: 50px;
+    border-bottom: dotted 2px #cacdd0;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.main-conts-left-first h1{
+    font-size: 22px;
+    color: #1e733c;
+}
+
+.main-conts-left-second{
+    height: 70px;
+    border-bottom: dotted 2px #cacdd0;
+    color: #a0a4a7;
+}
+
+.dollar-left,.dollar-right{
+    float: left;
+    font-size: 18px;
+    padding-top: 25px;
+}
+
+.dollar-left span,.dollar-right span{
+    color: #000000;
+}
+
+.dollar-left{
+    padding-left: 10px;
+}
+
+.dollar-right{
+    padding-left: 250px;
+}
+
+.main-conts-left-third{
+    height: 150px;
+    border-bottom: dotted 2px #cacdd0;
+    color: #000000;
+}
+
+.left-third-form{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.form-send-employee-full-info{
+    height: 65px;
+}
+
+.form-send-employee-full-info>label,.form-send-employee-full-info>input{
+    display: block;
+    float: left;
+}
+.form-send-employee-full-info>label{
+    width: 250px;
+    text-align: right;
+}
+
+.form-send-employee-full-info>input{
+    padding: 7px;
+    margin-left: 10px;
+    border: solid 1px #d0d4d6;
+    background-color: #f3f6f7;
+}
+
+.form-employees-ful{
+    height: 65px;
+}
+
+.form-employees-ful>label{
+    display: block;
+    float: left;
+    width: 250px;
+    text-align: right;
+}
+
+.form-employees-ful-pay{
+    margin-left: 10px;
+    float: left;
+    padding-top: 10px;
+}
+
+.form-employees-ful-pay:last-child{
+    padding-left: 40px;
+}
+
+.main-conts-left-force{
+    padding-top: 10px;
+}
+
+.conts-left-force-btn-square {
+    display:inline-block;
+    padding:3px 5px;
+    text-decoration:none;
+    background:-webkit-linear-gradient(top, #0f6e8a, #1194bb);/*ボタン色*/
+    color:#ffffff;
+    font-size:22px;
+    font-weight:bold;
+    border-bottom:solid 1px #0f6e8a;
+    border-radius:5px;
+    margin:7px 5px 5px 20px;
+}
+
+.conts-left-force-btn-square:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+}
+
+
+    /*mainにあるbunner*/
+.main-conts-left-second-sixth{
+    height: 100px;
+}
+
+.main-conts-right{
+    width:220px;
+    height:480px;
+    background-color:#eaf0f2;
+    float:right;
+    margin:5px 5px;
+    border: solid 1px #8b9598;
+}
+
+.main-conts-right-banner{
+    margin-top: 200px;
+    text-align:center;
+    transform:scale(1,1.5);/* 変形 横,縦 */
+}
+
+.main-conts-right-banner a{
+    text-decoration:none;
+    color:#000000;
+}
+

@@ -1,0 +1,89 @@
+main{
+    height: initial;
+}
+
+/*--------------------------------------main②*/
+.main-conts-container{
+    width:760px;
+    height: 750px;
+    background-color:#ffffff;
+    margin:0 auto;
+    padding:5px;
+}
+
+.main-conts-left{
+    float:left;
+}
+/*------------------------------------------mainの中のテーブル(表)*/
+.main-conts-left-container{
+    width:500px;
+    height: 330px;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.main-conts-left-table-top{
+    border-bottom: solid 2px #ffffff;
+}
+
+.main-conts-left-table-top th{
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.main-conts-left-table-top-name{
+    background-color: #858e93;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+}
+
+.main-conts-left-table-top-radius-left{
+    border-top-left-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.main-conts-left-table-top-radius-right{
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.main-conts-left-table-first,.main-conts-left-table-third,.main-conts-left-table-fifth{
+    background-color: #eaeff2;
+    font-size: 12px;
+    border-bottom: solid 2px #ffffff;
+}
+
+.main-conts-left-table-second,.main-conts-left-table-force,.main-conts-left-table-sixth{
+    background-color: #f2f6f7;
+    font-size: 12px;
+    border-bottom: solid 2px #ffffff;
+}
+
+
+/*mainにあるbunner*/
+.main-conts-right{
+    width:220px;
+    height:480px;
+    background-color:#eaf0f2;
+    float:right;
+    margin:5px 5px;
+    border: solid 1px #8b9598;
+}
+
+.main-conts-right-banner{
+    margin-top: 200px;
+    text-align:center;
+    transform:scale(1,1.5);/* 変形 横,縦 */
+}
+
+.main-conts-right-banner a{
+    text-decoration:none;
+    color:#000000;
+}

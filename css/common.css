@@ -1,0 +1,264 @@
+/*------------------------------------------共通*/
+body{
+    width:100%;
+    height:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: #ffffff;
+}
+
+header{
+    background-color:#eaf0f2;
+    width:780px;
+    height:110px;
+    margin:0 auto;
+}
+
+main{
+    background-color:#eaf0f2;
+    width:780px;
+    height:850px;
+    margin:0 auto;
+}
+
+footer{
+    background-color:#eaf0f2;
+    width:780px;
+    height:90px;
+    margin:0 auto;
+}
+
+.clear{
+    clear:both;
+}
+
+/*------------------------------------------headerの中身*/
+.header-conts{
+    height:100px;
+}
+
+.header-conts-logo{
+    float:left;
+}
+
+.header-conts-logo img{
+    width:490px;
+}
+
+.header-container{
+    width:290px;
+    height:110px;
+    float:left;
+}
+
+.header-conts-input{
+    width: 170px;
+    float: left;
+}
+
+.header-conts-input input{
+    border:0;
+    padding:5px;
+    font-size:13px;
+    color:#a3afb6;
+    border:solid 1px #d0d4d6;
+    margin:7px 5px 0 20px;
+    width:150px;
+    -webkit-border-radius:2px;
+}
+
+.header-conts-input input::placeholder {
+    color:#a3afb6;
+}
+
+.header-conts-btn{
+    width: 180px;
+    float: left;
+}
+
+.btn-square {
+    display:inline-block;
+    padding:3px 5px;
+    text-decoration:none;
+    background:-webkit-linear-gradient(top, #0f6e8a, #1194bb);/*ボタン色*/
+    color:#ffffff;
+    font-size:14px;
+    font-weight:bold;
+    border-bottom:solid 1px #0f6e8a;
+    border-radius:5px;
+    margin:7px 5px 5px 20px;
+}
+
+.btn-square:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+}
+
+.header-conts-right{
+    float:left;
+    margin-top: -60px;
+}
+
+.header-conts-img{
+    margin-bottom:15px;
+}
+
+.header-conts-right a{
+    color:#207942;
+}
+
+.header-conts-right a:hover {
+    font-weight: bold;
+    color:#ffffff
+}
+
+/*------------------------------------------main*/
+.main-conts-menu-wrapper{
+    width: 760px;
+    background-color:#ffffff;
+    margin: 0 auto;
+    padding:5px;
+}
+
+/*メニューの表示*/
+.main-conts-menu-container{
+    width: 750px;
+    height:40px;
+    border:2px dotted #cacdd0;/*枠線の指定*/
+}
+
+.main-conts-menu-list{
+    list-style:none;
+}
+
+.main-conts-menu-list li{
+    float: left;
+}
+
+.main-conts-menu-list>li{
+    float:left;
+    margin:5px 10px;
+    list-style:none;
+    color:#ffffff;
+}
+
+.main-conts-menu-list li:hover{
+    background-color: #1196be;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: #ffffff;
+}
+
+.main-conts-menu-list li:hover:first-child{
+    border-radius: 5px 5px 5px 0;
+}
+
+.main-conts-menu-list li{
+    padding: 4px 6px 4px 0;
+}
+
+.main-conts-menu-list a{
+    margin-left: 6px;
+}
+
+.main-conts-menu-list>li:hover>a {
+    color: white;
+}
+
+
+
+.main-conts-menu-list a{
+    color:#4581a9;
+    font-weight: bold;
+    text-decoration:none;
+}
+
+.main-conts-menu-list>a:hover{
+    background-color:#1196be;
+    color: #ffffff; /*カーソル当たると文字が黒くなる*/
+}
+
+
+
+/*サブメニュー liの中のulとli*/
+.main-conts-menu-sub-list{
+    display:none;
+    position:absolute;
+    padding:0;
+    margin:0;
+    list-style:none;
+    background-color:#1196be;
+    font-size: 10px;
+}
+
+.main-conts-menu-list li:hover > .main-conts-menu-sub-list{
+    display: block;
+    border-radius: 0 10px 10px 10px;
+}
+
+.main-conts-menu-sub-list a{
+    display: block;
+}
+
+.main-conts-menu-sub-list li{
+    float: none;
+    padding: 2px 6px;
+    margin: 4px 6px;
+}
+
+.main-conts-menu-sub-list li a{
+    border-radius: 5px 5px 5px 5px;
+    color: #ffffff;
+}
+
+.main-conts-menu-sub-list li:hover{
+    background-color: #ffffff;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: #ffffff;
+}
+
+.main-conts-menu-sub-list li:hover a{
+    color: black;
+}
+
+/*.main-conts-menu-sub-list:hover｛
+    display:block;
+    width:130px;
+｝*/
+
+
+
+/*---------------------------------------------------footer*/
+
+.footer-conts{
+    padding-top:20px;
+    padding-left:30px;
+    font-size:12px;
+}
+
+.footer-conts-center{
+    padding-left:145px;
+}
+
+.footer-conts-right{
+    padding-left:190px;
+}
+
+.footer-conts-left,.footer-conts-center,.footer-conts-right{
+    float: left;
+}
+
+.footer-sentence-blue{
+    color:#0d81ac;
+}
+
+.footre-sentence-green{
+    color:#1e703d;
+}
+
+.footer-conts-right-centence{
+    display:block;
+    padding-left:40px;
+    margin-top:-30px;
+}

@@ -1,0 +1,244 @@
+main{
+    height: initial;
+}
+
+/*--------------------------------------main②*/
+.main-conts-container{
+    width:760px;
+    background-color:#ffffff;
+    margin:0 auto;
+    padding:5px;
+}
+
+.main-conts-left{
+    width:520px;
+    float:left;
+}
+
+.main-conts-left-first{
+    height: 50px;
+    border-bottom: dotted 2px #8b9598;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.main-conts-left-first h1{
+    font-size: 20px;
+    color: #1e733c;
+}
+
+.main-conts-left-second{
+    height: 180px;
+    border-bottom: dotted 2px #8b9598;
+}
+
+.main-conts-btn{
+    float: left;
+    padding-top: 5px;
+}
+
+.btn-square-gray{
+    display:inline-block;
+    padding:3px 5px;
+    text-decoration:none;
+    background:-webkit-linear-gradient(top, #303a3d, #5a6163);/*ボタン色*/
+    color:#ffffff;
+    font-size:20px;
+    font-weight:bold;
+    border-bottom:solid 1px #5a6163;
+    border-radius:5px;
+    margin:7px 5px 5px 20px;
+}
+
+.btn-square-gray:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+}
+
+.btn-square-red{
+    display:inline-block;
+    padding:3px 5px;
+    text-decoration:none;
+    background:-webkit-linear-gradient(top, #a30806, #c00202);/*ボタン色*/
+    color:#ffffff;
+    font-size:20px;
+    font-weight:bold;
+    border-bottom:solid 1px #bf0508;
+    border-radius:5px;
+    margin:7px 5px 5px 20px;
+}
+
+.btn-square-red:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+}
+
+.main-conts-sentense{
+    padding-left: 25px;
+    padding-top: 15px;
+    color: #999ea1;
+}
+
+.main-conts-left-third{
+    height: 60px;
+    border-bottom: dotted 2px #8b9598;
+    font-size: 18px;
+}
+
+.conts-left-third-sentence{
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #999ea1;
+}
+
+.conts-left-third-sentence{
+    display: inline-block;
+}
+
+.conts-left-third-sentence>span{
+    color: #000000;
+    font-weight: bold;
+}
+
+.conts-left-third-sentence:last-child{
+    margin-left: 200px;
+}
+
+.main-conts-left-force{
+    height: 140px;
+    border-bottom: dotted 2px #8b9598;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.left-force-send-employee{
+    width: 500px;
+    font-size: 15px;
+}
+
+.left-force-send-employee>label{
+    display: block;
+    text-align: right;
+    float: left;
+}
+
+.left-force-send-employee>input{
+    width: 200px;
+    color: #999ea1;
+    float: left;
+    padding: 5px;
+    margin-left: 10px;
+    border: solid 2px #d0d4d6;
+    background-color: #f3f6f7;
+}
+
+.left-force-pay-for-employees{
+    width: 500px;
+    font-size: 15px;
+    padding-top: 25px;
+}
+
+.left-force-pay-for-employees>label{
+    width: 250px;
+    display: block;
+    text-align: right;
+    float: left;
+}
+
+.pay{
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.pay:last-child{
+    margin-left: 40px;
+}
+
+.main-conts-left-fifth{
+    height: 450px;
+    border-bottom: dotted 2px #8b9598;
+    font-size: 15px;
+}
+
+.left-fifth-form{
+    padding-top: 10px;
+    text-align: right;
+    padding-right: 10px;
+
+}
+.left-fifth-form>label{
+
+}
+
+.left-fifth-form input{
+    padding: 5px;
+    border: solid 2px #d0d4d6;
+}
+
+.main-conts-left-sixth{
+    height: 70px;
+    padding-top: 10px;
+}
+
+.btn-square-submit {
+    display:inline-block;
+    padding:3px 15px;
+    text-decoration:none;
+    background:-webkit-linear-gradient(top, #0f6e8a, #1194bb);/*ボタン色*/
+    color:#ffffff;
+    font-size:22px;
+    font-weight:bold;
+    border-bottom:solid 1px #0f6e8a;
+    border-radius:5px;
+    margin:7px 5px 5px 20px;
+}
+
+.btn-square-submit:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+}
+
+.btn-square-blue:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+}
+
+.form-btn-blue{
+    padding-top: 10px;
+}
+
+
+
+/*mainにあるbunner*/
+.main-conts-left-second-sixth{
+    height: 100px;
+}
+
+.main-conts-right{
+    width:220px;
+    height:480px;
+    background-color:#eaf0f2;
+    float:right;
+    margin:5px 5px;
+    border: solid 1px #8b9598;
+}
+
+.main-conts-right-banner{
+    margin-top: 200px;
+    text-align:center;
+    transform:scale(1,1.5);/* 変形 横,縦 */
+}
+
+.main-conts-right-banner a{
+    text-decoration:none;
+    color:#000000;
+}

@@ -1,0 +1,211 @@
+main{
+    height: initial;
+}
+
+/*--------------------------------------main②*/
+.main-conts-container{
+    width:760px;
+    background-color:#ffffff;
+    margin:0 auto;
+    padding:5px;
+}
+
+.main-conts-left{
+    width:520px;
+    float:left;
+}
+
+.main-conts-left-first{
+    height: 50px;
+    padding-top: 15px;
+    padding-left: 10px;
+    border-bottom: dotted 2px #c9c9c9;
+}
+
+.main-conts-left-first h1{
+    color: #216d3e;
+    font-size: 25px;
+}
+
+.main-conts-left-second{
+    height: 150px;
+    padding-top: 10px;
+    padding-left: 15px;
+    border-bottom: dotted 2px #c9c9c9;
+}
+
+.main-conts-left-second-sentence{
+    margin-bottom: 10px;
+}
+
+.main-conts-left-second-third{
+    height: 130px;
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: 14px;
+    border-bottom: dotted 2px #c9c9c9;
+}
+
+.main-conts-left-third-sentence{
+    padding-bottom: 10px;
+}
+
+.main-conts-left-second-force{
+    height: 170px;
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: 13px;
+    border-bottom: dotted 2px #c9c9c9;
+}
+
+.main-conts-left-second-force-picture{
+    width: 85px;
+    height: 130px;
+    background-color: #cdd2d5;
+    padding-left: 3px;
+    padding-top: 6px;
+    margin-left: 40px;
+    float: left;
+ }
+
+.main-conts-left-force-sentence{
+    padding-left: 150px;
+    padding-bottom: 10px;
+}
+
+.main-conts-left-force-sentence-second{
+    padding-left: 150px;
+}
+
+.main-conts-left-second-fifth{
+    height: 150px;
+    padding-top: 10px;
+    padding-left: 15px;
+    border-bottom: dotted 2px #c9c9c9;
+}
+
+.main-conts-left-fifth-sentence{
+    padding-bottom: 5px;
+}
+
+.main-conts-left-second-fifth>span{
+    margin-bottom: 2px;
+    padding-left: 15px;
+    display: block;
+    font-size: 12px;
+    color: #bdbdbd;
+}
+
+/*ボタン*/
+.btn-square-blue{
+    width:450px;
+    display:inline-block;
+    padding:2px 150px;
+    text-decoration:none;
+    background:-webkit-linear-gradient(top, #0e718e, #1195bc);/*ボタン色*/
+    color:#ffffff;
+    font-size:15px;
+    font-weight:bold;
+    border-bottom:solid 3px #0e95c4;
+    border-right:solid 3px #0e95c4;
+    border-radius:5px;
+    margin:7px 5px 5px 5px;
+    transform:scale(1,1.4);/* 変形 横,縦 */
+}
+
+.btn-square-blue:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px); /*下に動く*/
+    border-bottom: none; /*線を消す*/
+}
+
+.main-conts-left-buttons-top{
+    width:520px;
+    height:50px;
+    padding-top: 10px;
+}
+
+.main-conts-left-buttons-bottom-left{
+    float: left;
+}
+
+.main-conts-left-buttons-bottom-right{
+    float: left;
+}
+
+.main-conts-left-buttons-bottom{
+}
+
+.btn-square-green{
+    width:220px;
+    display:inline-block;
+    padding:2px 50px;
+    text-decoration:none;
+    background:-webkit-linear-gradient(top, #1f6938, #238749);/*ボタン色*/
+    color:#ffffff;
+    font-size:15px;
+    font-weight:bold;
+    border-bottom:solid 3px #22874f;
+    border-right:solid 3px #22874f;
+    border-radius:5px;
+    margin:7px 5px 5px 5px;
+    transform:scale(1,1.4);/* 変形 横,縦 */
+}
+
+.btn-square-green:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px); /*下に動く*/
+    border-bottom: none; /*線を消す*/
+}
+
+.btn-square-red{
+    width:220px;
+    display:inline-block;
+    padding:2px 50px;
+    text-decoration:none;
+    background:-webkit-linear-gradient(top, #9b0707, #c00202);/*ボタン色*/
+    color:#ffffff;
+    font-size:15px;
+    font-weight:bold;
+    border-bottom:solid 3px #c30102;
+    border-right:solid 3px #c30102;
+    border-radius:5px;
+    margin:7px 5px 5px 5px;
+    transform:scale(1,1.4);/* 変形 横,縦 */
+}
+
+.btn-square-red:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px); /*下に動く*/
+    border-bottom: none; /*線を消す*/
+}
+
+
+/*mainにあるbunner*/
+.main-conts-left-second-sixth{
+    height: 100px;
+}
+
+.main-conts-right{
+    width:220px;
+    height:480px;
+    background-color:#eaf0f2;
+    float:right;
+    margin:5px 5px;
+    border: solid 1px #8b9598;
+}
+
+.main-conts-right-banner{
+    margin-top: 200px;
+    text-align:center;
+    transform:scale(1,1.5);/* 変形 横,縦 */
+}
+
+.main-conts-right-banner a{
+    text-decoration:none;
+    color:#000000;
+}
+

@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/edit-employee.css">
+    <title>edit-employee</title>
+</head>
+<body>
+<header>
+    <div class="header-conts-logo">
+        <a href="../index.html">
+            <img src="../img/header-logo.jpg">
+        </a>
+    </div>
+    <div class="header-container">
+        <div class="header-conts-input">
+            <input type="text" name="text" value="" placeholder="login">
+        </div>
+        <div class="header-conts-input">
+            <input type="password" name="password" value="" placeholder="password">
+        </div>
+        <div class="header-conts-btn">
+            <a href="#" class="btn-square">shopping cart</a>
+        </div>
+        <div class="header-conts-right">
+            <div class="header-conts-img">
+                <img src="../img/signin-img.png">
+            </div>
+            <a href="#">lost password</a>
+        </div>
+    </div>
+</header>
+<div class="clear"></div>
+
+<main>
+    <!-- main① -->
+    <div class="main-conts-menu-wrapper">
+        <div class="main-conts-menu-container">
+            <ul class="main-conts-menu-list">
+                <li><a href="#">Created page</a>
+                    <ul class="main-conts-menu-sub-list">
+                        <!--今回作成したページを集めたもの-->
+                        <li><a href="../html/checkout-1.html">Checkout</a></li>
+                        <li><a href="../html/edit-employee.html">Edit employee profile</a></li>
+                        <li><a href="../html/mail-template.html">mail_template</a></li>
+                        <li><a href="../html/resume-info.html">Resume Info</a></li>
+                        <li><a href="../html/inner-bio.html">inner-bio</a></li>
+                        <li><a href="../html/inner-checkout-2.html">inner-checkout-2</a></li>
+                        <li><a href="../html/inner-edit.html">inner-edit</a></li>
+                        <li><a href="../html/inner-feedback.html">inner-feedback</a></li>
+                        <li><a href="../html/inner-find.html">inner-find</a></li>
+                        <li><a href="../html/inner-list.html">inner-list</a></li>
+                        <li><a href="../html/inner-myprofile.html">inner-myprofile</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">texttexttext</a></li>
+                <ul class="main-conts-menu-sub-list">
+                    <!--今後以下のリンク先でページの作成予定-->
+                    <li>Team of use</li>
+                    <li>Copyrights</li>
+                    <li>Privacy Policy</li>
+                    <li>Agreement</li>
+                    <li>Comments</li>
+                </ul>
+                <li><a href="#">texttexttext</a></li>
+                <ul class="main-conts-menu-sub-list">
+                    <li>Team of use</li>
+                    <li>Copyrights</li>
+                    <li>Privacy Policy</li>
+                    <li>Agreement</li>
+                    <li>Comments</li>
+                </ul>
+                <li><a href="#">texttexttext</a></li>
+                <ul class="main-conts-menu-sub-list">
+                    <li>Team of use</li>
+                    <li>Copyrights</li>
+                    <li>Privacy Policy</li>
+                    <li>Agreement</li>
+                    <li>Comments</li>
+                </ul>
+                <li><a href="#">texttext</a></li>
+                <ul class="main-conts-menu-sub-list">
+                    <li>Team of use</li>
+                    <li>Copyrights</li>
+                    <li>Privacy Policy</li>
+                    <li>Agreement</li>
+                    <li>Comments</li>
+                </ul>
+                <li><a href="#">texttext</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- main② -->
+    <div class="main-conts-container">
+        <div class="main-conts-left">
+            <p>
+                <span>Edit employee profile</span>
+            </p>
+            <form action="" method="post">
+                <div class="employee-prof-conts">
+                    <div class="employee-prof-conts-top">
+                        <label for="occupation-from-pull">
+                            Select occupation from pull down menu:
+                        </label>
+                        <select id="occupation-from-pull">
+                            <option value="xxx">Actor</option>
+                            <option value="xxx">Actor</option>
+                            <option value="xxx">Actor</option>
+                            <option value="xxx">Actor</option>
+                            <option value="xxx">Actor</option>
+                        </select>
+                        <span>＊</span>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="employee-prof-conts-request">
+                        <img src="../img/ajax-loader.gif">
+                        <div class="employee-prof-conts-request-sentence">
+                            <a>New occupatlon requlred</a>
+                            <span>This field is requlred</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="employee-prof-conts">
+                    <div class="employee-prof-conts-top">
+                        <label for="travel-to-work">
+                            How would you travel to work?
+                        </label>
+                        <select id="travel-to-work">
+                            <option value="xxx">I have my own vehicle</option>
+                            <option value="xxx">I have my own vehicle</option>
+                            <option value="xxx">I have my own vehicle</option>
+                            <option value="xxx">I have my own vehicle</option>
+                            <option value="xxx">I have my own vehicle</option>
+                        </select>
+                        <span>＊</span>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="employee-prof-conts-request">
+                        <img src="../img/ajax-loader.gif">
+                        <div class="employee-prof-conts-request-sentence">
+                            <span>This field is requlred</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="employee-prof-conts">
+                    <div class="employee-prof-conts-top">
+                        <label for="How-many-miles">
+                            How many miles
+                            are you willing to travel to work?
+                        </label>
+                        <select id="How-many-miles">
+                            <option value="xxx">Actor</option>
+                            <option value="xxx">Actor</option>
+                            <option value="xxx">Actor</option>
+                            <option value="xxx">Actor</option>
+                            <option value="xxx">Actor</option>
+                        </select>
+                        <span>＊</span>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="employee-prof-conts-request">
+                        <img src="../img/ajax-loader.gif">
+                        <div class="employee-prof-conts-request-sentence">
+                            <span>This field is requlred</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="employee-prof-conts">
+                    <div class="employee-prof-conts-top">
+                        <label for="minimum-salary">
+                            What is the minimum salary
+                            you are willing to work for ($)?
+                        </label>
+                        <select id="minimum-salary">
+                            <option value="xxx">Year</option>
+                            <option value="xxx">Year</option>
+                            <option value="xxx">Year</option>
+                            <option value="xxx">Year</option>
+                            <option value="xxx">Year</option>
+                        </select>
+                        <span>＊</span>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="employee-prof-conts-request">
+                        <img src="../img/ajax-loader.gif">
+                        <div class="employee-prof-conts-request-sentence">
+                            <span>This field is requlred</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="employee-prof-conts">
+                    <div class="employee-prof-conts-top">
+                        <label for="minimum-salary">
+                            Are you looking
+                            for Full or Part time job?
+                        </label>
+                        <select id="minimum-salary">
+                            <option value="xxx">Year</option>
+                            <option value="xxx">Year</option>
+                            <option value="xxx">Year</option>
+                            <option value="xxx">Year</option>
+                            <option value="xxx">Year</option>
+                        </select>
+                        <span>＊</span>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="employee-prof-conts-request">
+                        <img src="../img/ajax-loader.gif">
+                        <div class="employee-prof-conts-request-sentence">
+                            <span>This field is requlred</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="employee-prof-conts">
+                    <div class="employee-prof-conts-top">
+                        <label for="minimum-salary">
+                            Upload resume (TXT, PDF, DOC,
+                            DOCX, JPG, GIF, max 1 MB):
+                        </label>
+                        <select id="minimum-salary">
+                            <option value="xxx">Year</option>
+                            <option value="xxx">Year</option>
+                            <option value="xxx">Year</option>
+                            <option value="xxx">Year</option>
+                            <option value="xxx">Year</option>
+                        </select>
+                        <span>＊</span>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="employee-prof-conts-request">
+                        <img src="../img/ajax-loader.gif">
+                        <div class="employee-prof-conts-request-sentence">
+                            <span>This field is requlred</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="employee-prof-conts">
+                    <div class="employee-prof-conts-top">
+                        <label for="minimum-salary">
+                            Upload photo (JPG, max 1 MB):
+                        </label>
+                        <select id="minimum-salary">
+                            <option value="xxx">Year</option>
+                            <option value="xxx">Year</option>
+                            <option value="xxx">Year</option>
+                            <option value="xxx">Year</option>
+                            <option value="xxx">Year</option>
+                        </select>
+                        <span>＊</span>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="employee-prof-conts-request">
+                        <img src="../img/ajax-loader.gif">
+                        <div class="employee-prof-conts-request-sentence">
+                            <span>This field is requlred</span>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="header-conts-btn">
+                <a href="#" class="btn-square">save info</a>
+            </div>
+        </div>
+
+
+        <!--mainの右側の広告-->
+        <div class="main-conts-right">
+            <div class="main-conts-right-banner">
+                <a href="#">BANNERS GO HERE</a>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+</main>
+<div class="clear"></div>
+<!--footer-->
+<footer>
+    <div class="footer-conts">
+        <div class="footer-conts-left">
+            © 2020.<span class="footer-sentence-blue">Looking</span>
+            <span class="footre-sentence-green">ForAJob.Com</span>
+            <br>
+            Where Job Find People
+        </div>
+        <div class="footer-conts-center">
+            <img src="../img/footer-company-name.png">
+        </div>
+        <div class="footer-conts-right">
+            <img src="../img/footer-mail-img.png">
+            <a class="footer-conts-right-centence" href="#">Contact Us</a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
